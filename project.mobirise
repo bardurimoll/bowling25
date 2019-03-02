@@ -41,8 +41,8 @@
     "gdpr": "",
     "google-analytics": "",
     "сanonical-url": "",
-    "uniqCompNum": 12,
-    "versionPublish": "4.9.3",
+    "uniqCompNum": 18,
+    "versionPublish": "4.9.4",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -74,10 +74,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.875rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.948rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -119,12 +119,12 @@
             "collapsed": false,
             "transparent": true,
             "bgColor": "#000000",
-            "fontSize": "0.75",
+            "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OM OSS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle Priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Bursdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Familiebowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"tel:913\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 822</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"fa fa-home mbr-iconfont mbr-iconfont-btn\"></span>ÅPNINGSTIDER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page12.html\">OM OSS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">Bursdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">Familiebowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page9.html\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/explore/locations/558578284530557/vall-bowling/\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.facebook.com/vallobowlingsenter/?rf=246571988775062\" target=\"_blank\"><span class=\"fa fa-facebook-square mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"tel:91346911\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -132,8 +132,7 @@
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -147,7 +146,7 @@
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-1"
+          "_anchor": "menu-h"
         },
         {
           "_styles": {
@@ -193,6 +192,20 @@
           "_anchor": "header2-7"
         },
         {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#000000"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"tel:91346911\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a> ",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-e"
+        },
+        {
           "_styles": {
             ".mbr-section-title": {
               "font-weight": "700"
@@ -210,7 +223,7 @@
             "ShowTexts": true,
             "showButtons": true,
             "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "columns": "2",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
@@ -335,11 +348,11 @@
           "title1": "Bootstrap 4",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites.",
-          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">Les mer</a>",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">les mer</a>",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
@@ -506,11 +519,11 @@
           "title1": "Bootstrap 4",
           "subtitle1": "Bootstrap 4 has been noted",
           "caption1": "jhkj<br>kjh",
-          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "buttons1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">les mer</a>",
           "title2": "Responsive",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">learn more</a>",
+          "buttons2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">les mer</a>",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
@@ -535,6 +548,75 @@
           "_anchor": "features1-9"
         },
         {
+          "_styles": {
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase"
+            },
+            ".form-control-label": {},
+            ".mbr-section-title": {
+              "color": "#cc3300"
+            },
+            ".mbr-section-text": {
+              "color": "#dddddd"
+            }
+          },
+          "_params": {
+            "showSubtitle": false,
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": "0",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/03.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": false,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.5
+          },
+          "iconName": "<img src=\"@PROJECT_PATH@/assets/images/icon-name.png\">",
+          "iconEmail": "<img src=\"@PROJECT_PATH@/assets/images/icon-email.png\">",
+          "iconPhone": "<img src=\"@PROJECT_PATH@/assets/images/icon-phone.png\">",
+          "title": "Kontaktskjema",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "text": "Om du ikke når oss på telefon kan du fylle ut og sende inn kontaktskjema under.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"icon54-v1-send-mail2 mbr-iconfont mbr-iconfont-btn\"></span>Send melding</a>",
+          "form": {
+            "action": "bardurimoll@gmail.com",
+            "alerts": {
+              "success": "Takk for henvendelsen!\nVi svarer deg så fort vi kan..."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Navn*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Epost*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telefon*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Melding"
+              }
+            }
+          },
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-d"
+        },
+        {
           "_params": {
             "googleMap": {
               "address": "vallø bowling as",
@@ -547,9 +629,12 @@
             "Theme"
           ],
           "_name": "map1",
-          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" data-rv-view=\"20\">\n    <div class=\"mbr-map\"><iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.8544993772603!2d10.487211419156395!3d59.26054362243811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646b4142ac206c9%3A0xeefb3649c9cc68fe!2sVall%C3%B8+Bowling+AS!5e1!3m2!1sno!2sno!4v1542506653011\" allowfullscreen=\"\"></iframe></div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" data-rv-view=\"20\">\n    <div class=\"mbr-map\"><iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1850.7073301760547!2d10.489047115923261!3d59.26065288163486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646b4142ac206c9%3A0xeefb3649c9cc68fe!2sVall%C3%B8+Bowling+AS!5e1!3m2!1sno!2sno!4v1551484891688\" width=\"600\" height=\"450\" allowfullscreen=\"\"></iframe></div>\n</section>",
           "_customTemplate": true,
-          "_anchor": "map1-a"
+          "_anchor": "map1-a",
+          "_customCSS": "",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "_styles": {
@@ -650,10 +735,10 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.875rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.948rem"
             },
             ".link:hover, .link:focus": {
               "color": "@primaryColor"
@@ -695,12 +780,12 @@
             "collapsed": false,
             "transparent": true,
             "bgColor": "#000000",
-            "fontSize": "0.75",
+            "fontSize": 0.875,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OM OSS</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle Priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Bursdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Familiebowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"tel:913\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 822</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\"><span class=\"fa fa-home mbr-iconfont mbr-iconfont-btn\"></span>ÅPNINGSTIDER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page12.html\">OM OSS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">PRISER/TILBUD</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page1.html\">Alle priser</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">Bursdagsbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page6.html\">Familiebowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page7.html\">Firmabowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page3.html\">Pensjonistbowling</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page8.html\">Biljard</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page9.html\">JARLSBERG BOWLINGKLUBB</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/explore/locations/558578284530557/vall-bowling/\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.facebook.com/vallobowlingsenter/?rf=246571988775062\" target=\"_blank\"><span class=\"fa fa-facebook-square mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"tel:91346911\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -708,8 +793,7 @@
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -723,7 +807,7 @@
             "Theme"
           ],
           "_name": "menu",
-          "_anchor": "menu-1"
+          "_anchor": "menu-h"
         },
         {
           "_params": {
@@ -877,11 +961,25 @@
           ],
           "_name": "features3",
           "_anchor": "features3-0",
-          "_customCSS": "@import url(undefined);\n.mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #cc3300;\n}\n.card {\n    background: #ffffff;\n  padding: 15px 0em;\n  margin-bottom: 1em;\n  border: 4px solid #ffffff;\n  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\n  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\n  border-radius: 7px;\n}",
-          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"0\" style=\"background-color: rgb(0, 0, 0); padding-top: 80px; padding-bottom: 80px;\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    \n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-12 col-md-5 col-lg-3 justify-content-center\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            \n                            \n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"265\"><strong>MAN-FRE FØR KL 1600\n</strong></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"266\">Løsspill Pr. serie 35,- \n<br>Skoleie 25,- \n<br>\n<br>Pensjonister: \n<br>Pr. serie 25,- \n<br>\n<br>Inntil 6 serier 200,- ink. sko \n<br>\n<br>Inntil 10 serier 250,- ink. sko \n<br>\n<br>Tilbud u/ 18 år: \n<br>3 serier og slush 150,- \n<br>\n<br>Biljard: \n<br>15 min 25,- \n<br>30 min 50,- \n<br>1 time 100,-</p>\n\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-12 col-md-5 col-lg-3 justify-content-center\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            \n                            \n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"267\"><strong>Øvrige åpningstider</strong></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"268\">Løsspill Pr. serie 50,- \n<br>Skoleie 25,- \n<br>\n<br>Pensjonister: \n<br>Pr. serie 25,- \n<br>\n<br>Inntil 6 serier 200,- ink. sko \n<br>\n<br>Inntil 10 serier 250,- ink. sko \n<br>\n<br>Tilbud u/ 18 år: \n<br>3 serier og slush 150,- \n<br>\n<br>Biljard: \n<br>15 min 25,- \n<br>30 min 50,- \n<br>1 time 100,-</p>\n\n\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-12 col-md-5 col-lg-3 justify-content-center\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            \n                            \n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"269\"><strong>Familiebowling<br></strong><br></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"270\">Pr.bane ink. kaffe og slush: \n<br>1 time 350,- \n<br>1,5 time 475,- \n<br>2 timer 585,-</p>\n\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-12 col-md-5 col-lg-3 justify-content-center\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            \n                            \n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"271\"><strong>Arrangementer<br></strong><br></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"272\">Bursdagsbowling (gjelder også klasser, idrettslag, foreninger og SFO): \n<br>1 serie bowling, pizza, 0,5 mineralvann og slush 135,- \n<br>(under 10 år) \n<br>2 serier bowling, pizza, 0,5 mineralvann og sush 170,- \n<br>(10-12 år) \n<br>3 serier bowling, pizza, 0,5 mineralvann og slush 210,- \n<br>(13-16 år) \n<br>\n<br>Firmabowling: \n<br>2 serier bowling og pizza 210,- pr. person. \n<br>3 serier bowling og pizza 250,- pr. person.</p>\n\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
+          "_customCSS": "@import url(null);\n@import url(undefined);\n.mbr-section-title {\n  font-weight: 700;\n}\n.mbr-section-subtitle {\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #cc3300;\n}\n.card {\n    background: #ffffff;\n  padding: 15px 0em;\n  margin-bottom: 1em;\n  border: 4px solid #ffffff;\n  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\n  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\n  border-radius: 7px;\n}",
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero features4\" data-rv-view=\"0\" style=\"background-color: rgb(0, 0, 0); padding-top: 50px; padding-bottom: 80px;\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container-fluid\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-8 col-lg-offset-2 text-xs-center\">\n\n                    \n\n                </div>\n            </div>\n\n            <div class=\"mbr-cards-row row\">\n                <div class=\"mbr-cards-col col-12 col-md-5 col-lg-3 justify-content-center\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            \n                            \n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"33\"><strong style=\"font-family: cocon-bold-webfont;\">MAN-FRE FØR KL 1600\n</strong></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"34\"><strong>Løsspill</strong> Pr. serie <strong>35,- \n</strong><br><strong>Skoleie</strong> <strong>25,- \n</strong><br>\n<br><strong>Pensjonister: \n</strong><br>Pr. serie <strong>25,- \n</strong><br>\n<br><strong>Inntil 6</strong> serier<strong> 200,- </strong>ink. sko \n<br>\n<br><strong>Inntil 10</strong> serier <strong>250,-</strong> ink. sko \n<br>\n<br><strong>Tilbud u/ 18 år: \n</strong><br>3 serier og slush <strong>150,- \n</strong><br>\n<br><strong>Biljard: \n</strong><br>15 min <strong>25,- \n</strong><br>30 min <strong>50,- \n</strong><br>1 time <strong>100,-</strong></p>\n\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-12 col-md-5 col-lg-3 justify-content-center\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            \n                            \n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"35\"><strong style=\"font-family: cocon-bold-webfont;\">Øvrige åpningstider</strong></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"36\">Løsspill Pr. serie 50,- \n<br>Skoleie 25,- \n<br>\n<br>Pensjonister: \n<br>Pr. serie 25,- \n<br>\n<br>Inntil 6 serier 200,- ink. sko \n<br>\n<br>Inntil 10 serier 250,- ink. sko \n<br>\n<br>Tilbud u/ 18 år: \n<br>3 serier og slush 150,- \n<br>\n<br>Biljard: \n<br>15 min 25,- \n<br>30 min 50,- \n<br>1 time 100,-</p>\n\n\n                                \n                            </div>\n                        </div>\n                  </div>\n                </div>\n                <div class=\"mbr-cards-col col-12 col-md-5 col-lg-3 justify-content-center\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            \n                            \n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"37\"><strong style=\"font-family: cocon-bold-webfont;\">Familiebowling<br></strong><br></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"38\">Pr.bane ink. kaffe og slush: \n<br>1 time 350,- \n<br>1,5 time 475,- \n<br>2 timer 585,-</p>\n\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"mbr-cards-col col-12 col-md-5 col-lg-3 justify-content-center\">\n                    <div class=\"container\">\n                        <div class=\"card cart-block\">\n                            \n                            \n                            <div class=\"card-block text-xs-center\">\n                                <h5 class=\"mbr-section-subtitle lead mbr-editable-content\" code-editable-id=\"39\"><strong style=\"font-family: cocon-bold-webfont;\">Arrangementer<br></strong><br></h5>\n                                <p class=\"mbr-section-text lead mbr-editable-content\" style=\"color: rgb(0, 0, 0);\" code-editable-id=\"40\">Bursdagsbowling (gjelder også klasser, idrettslag, foreninger og SFO): \n<br>1 serie bowling, pizza, 0,5 mineralvann og slush 135,- \n<br>(under 10 år) \n<br>2 serier bowling, pizza, 0,5 mineralvann og sush 170,- \n<br>(10-12 år) \n<br>3 serier bowling, pizza, 0,5 mineralvann og slush 210,- \n<br>(13-16 år) \n<br>\n<br>Firmabowling: \n<br>2 serier bowling og pizza 210,- pr. person. \n<br>3 serier bowling og pizza 250,- pr. person.</p>\n\n\n                                \n                            </div>\n                        </div>\n                    </div>\n                </div>\n                \n                \n            </div>\n\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#000000"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"tel:91346911\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>913 46 911</a> ",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-g"
         },
         {
           "_styles": {
@@ -965,9 +1063,9 @@
             "Theme"
           ],
           "_name": "map1",
-          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" data-rv-view=\"20\">\n    <div class=\"mbr-map\"><iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.8544993772603!2d10.487211419156395!3d59.26054362243811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646b4142ac206c9%3A0xeefb3649c9cc68fe!2sVall%C3%B8+Bowling+AS!5e1!3m2!1sno!2sno!4v1542506653011\" allowfullscreen=\"\"></iframe></div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-section-nopadding\" data-rv-view=\"20\">\n    <div class=\"mbr-map\"><iframe frameborder=\"0\" style=\"border:0\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1850.7073301760547!2d10.489047115923261!3d59.26065288163486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4646b4142ac206c9%3A0xeefb3649c9cc68fe!2sVall%C3%B8+Bowling+AS!5e1!3m2!1sno!2sno!4v1551484891688\" width=\"600\" height=\"450\" allowfullscreen=\"\"></iframe></div>\n</section>",
           "_customTemplate": true,
-          "_anchor": "map1-4"
+          "_anchor": "map1-f"
         },
         {
           "_styles": {
